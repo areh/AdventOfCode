@@ -1,6 +1,6 @@
 import re
 
-inputfile = open("03_input.txt", "r")
+inputfile = open("input.txt", "r")
 inputdata = inputfile.read()
 inputfile.close()
 
