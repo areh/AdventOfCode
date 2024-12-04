@@ -1,4 +1,4 @@
-inputFile = open("01_input.txt", "r")
+inputFile = open("input.txt", "r")
 lines = inputFile.readlines()
 
 listA = []
