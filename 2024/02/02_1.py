@@ -1,5 +1,5 @@
-#inputFile = open("02_test_data.txt", "r")
-inputFile = open("02_input.txt", "r")
+#inputFile = open("test_input.txt", "r")
+inputFile = open("input.txt", "r")
 lines = inputFile.readlines()
 
 safelines = 0
