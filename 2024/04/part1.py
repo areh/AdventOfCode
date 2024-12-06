@@ -6,9 +6,7 @@ inputfile.close()
 total = 0
 
 for lnum, line in enumerate(lines):
-#  print("\nlnum: " + str(lnum) + " ::", end=" ")
   for c in range(len(line)):
-#    print(str(c), end=" ")
     if line[c] == "X":
       if c+3 <= len(line):              # Right
         if line[c+1] == "M":
